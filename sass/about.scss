@@ -1,0 +1,35 @@
+.abtmain {
+    padding-top: 4rem;
+}
+.h1abt {
+    padding-top: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $text_title;
+    // float: left;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.h2abt {
+    padding-top: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $text_title;
+    float: left;
+    padding-left: 10px;
+}
+
+.parabt {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: $text_par;
+    float: left;
+}

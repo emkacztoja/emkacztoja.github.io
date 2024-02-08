@@ -1,0 +1,62 @@
+.titleh1 {
+    padding-top: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $text_title;
+    display: flex;
+    justify-content: center;
+}
+
+.titleh2 {
+    padding-top: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $text_title;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: $text_par;
+    display: flex;
+    justify-content: center;
+}
+
+.bgimg {
+    background-image: url("/assets/homepage_splash.png");
+    background-size: cover;
+    height: 30vw;
+    padding-top: 80px;
+}
+
+.home {
+    padding-top: 10px;
+}
+
+.redirect a{
+    font-family: "Anton", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    display: block;
+    color: $text_title;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.redirect a:hover {
+    color: $accent;
+}
+
+.abtmain {
+    padding-top: 4rem;
+}
