@@ -1,0 +1,56 @@
+/* _body_apply_to_all.scss */
+
+// Dropdown Styles
+#shapeSelector {
+    background-color: $secondary-color;
+    color: $text-color;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  // Calculator Styles
+  .calculator {
+    background-color: darken($background-color, 10%);
+    color: $text-color;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+  
+  input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: $primary-color;
+    color: $text-color;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: darken($primary-color, 10%);
+  }
+  
+  .result {
+    margin-top: 15px;
+  }
+  

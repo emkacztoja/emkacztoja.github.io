@@ -1,0 +1,24 @@
+/* _body.scss */
+
+// General Styles
+body {
+    font-family: 'Arial', sans-serif;
+    color: $text-color;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  .container {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: $primary-color;
+  }
+  

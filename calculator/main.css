@@ -1,0 +1,205 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* _abstract.scss */
+/* _body_apply_to_all.scss */
+#shapeSelector {
+  background-color: #4F8AFF;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.calculator {
+  background-color: #080808;
+  color: #ecf0f1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #4F8AFF;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4F8AFF;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #1c68ff;
+}
+
+.result {
+  margin-top: 15px;
+}
+
+/* _body.scss */
+body {
+  font-family: "Arial", sans-serif;
+  color: #ecf0f1;
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+h2 {
+  color: #4F8AFF;
+}/*# sourceMappingURL=main.css.map */
