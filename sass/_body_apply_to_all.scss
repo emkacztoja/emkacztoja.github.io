@@ -1,56 +1,52 @@
-/* _body_apply_to_all.scss */
+* {
+    box-sizing: border-box;
+}
 
-// Dropdown Styles
-#shapeSelector {
-    background-color: $secondary-color;
-    color: $text-color;
-    border: none;
-    padding: 10px 20px;
+html {
     font-size: 16px;
-    border-radius: 5px;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
-  // Calculator Styles
-  .calculator {
-    background-color: darken($background-color, 10%);
-    color: $text-color;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  label {
-    display: block;
-    margin-top: 15px;
-  }
-  
-  input[type='number'] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="number"]:focus,
+input[type="number"]:hover,
+input[type="number"]:active,
+input[type="number"]:visited {
     border: 1px solid $primary-color;
-    border-radius: 5px;
-  }
-  
-  button {
-    background-color: $primary-color;
     color: $text-color;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 15px;
-  }
-  
-  button:hover {
-    background-color: darken($primary-color, 10%);
-  }
-  
-  .result {
-    margin-top: 15px;
-  }
-  
+    background-color: transparent;
+    padding: 5px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-input-placeholder {
+    color: $text-color;
+}
+
+input[type="number"]::-moz-placeholder {
+    color: $text-color;
+}
+
+input[type="number"]:-ms-input-placeholder {
+    color: $text-color;
+}
+
+input[type="number"]::-ms-input-placeholder {
+    color: $text-color;
+}
+
+input[type="number"]::placeholder {
+    color: $text-color;
+}

@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Figur</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-<div class="container">
     <h2>Kalkulator Figur</h2>
-    <select id="shapeSelector">
-        <option value="choose">Wybierz Figurę</option>
-        <option value="rectangle">Prostokąt</option>
-        <option value="cuboid">Prostopadłościan</option>
-        <option value="ball">Kula</option>
-        <option value="cone">Stożek</option>
-        <option value="torus">Torus</option>
-    </select>
-    <div id="calculatorContainer"></div>
-</div>
 
-<script src="calculator.js"></script>
+    <h3>prostokąt</h3>
+    <label for="prostokat-dlugosc">Długość:</label>
+    <input type="number" id="prostokat-dlugosc">
+    <br>
+    <label for="prostokat-szerokosc">Szerokość:</label>
+    <input type="number" id="prostokat-szerokosc">
+    <br>
+    <button onclick="obliczprostokatPole()">Oblicz Pole</button>
+    <button onclick="obliczprostokatObwod()">Oblicz Obwód</button>
+    <button onclick="obliczprostokatprzekatna()">Oblicz Przekątną</button>
+    <p id="prostokat-wynik"></p>
 
+    <h3>prostopadłościan</h3>
+    <label for="prostopadloscian-dlugosc">Długość:</label>
+    <input type="number" id="prostopadloscian-dlugosc">
+    <br>
+    <label for="prostopadloscian-szerokosc">Szerokość:</label>
+    <input type="number" id="prostopadloscian-szerokosc">
+    <br>
+    <label for="prostopadloscian-wysokosc">Wysokość:</label>
+    <input type="number" id="prostopadloscian-wysokosc">
+    <br>
+    <button onclick="obliczprostopadloscianobjetosc()">Oblicz Objętość</button>
+    <button onclick="obliczprostopadloscianpolepow()">Oblicz Pole Powierzchni</button>
+    <button onclick="obliczprostopadloscianprzekatna()">Oblicz Przekątną</button>
+    <p id="prostopadloscian-wynik"></p>
+
+    <script src="calculator.js"></script>
 </body>
 </html>

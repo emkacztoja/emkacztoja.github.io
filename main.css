@@ -128,78 +128,83 @@ table {
   border-spacing: 0;
 }
 
-/* _abstract.scss */
-/* _body_apply_to_all.scss */
-#shapeSelector {
-  background-color: #4F8AFF;
-  color: #ecf0f1;
-  border: none;
-  padding: 10px 20px;
+* {
+  box-sizing: border-box;
+}
+
+html {
   font-size: 16px;
-  border-radius: 5px;
-  margin: 10px;
-  cursor: pointer;
 }
 
-.calculator {
-  background-color: #080808;
+p {
+  margin-bottom: 10px;
+}
+
+input[type=number],
+input[type=number]:focus,
+input[type=number]:hover,
+input[type=number]:active,
+input[type=number]:visited {
+  border: 1px solid #2568FB;
   color: #ecf0f1;
-  border-radius: 10px;
-  padding: 20px;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  padding: 5px;
 }
 
-label {
-  display: block;
-  margin-top: 15px;
+input[type=number]:focus {
+  outline: none;
 }
 
-input[type=number] {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #4F8AFF;
-  border-radius: 5px;
-}
-
-button {
-  background-color: #4F8AFF;
-  color: #ecf0f1;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 15px;
-}
-
-button:hover {
-  background-color: #1c68ff;
-}
-
-.result {
-  margin-top: 15px;
-}
-
-/* _body.scss */
-body {
-  font-family: "Arial", sans-serif;
-  color: #ecf0f1;
-  background-color: #212121;
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-  min-height: 100vh; /* Ensure full viewport height */
+}
+
+input[type=number]::-moz-placeholder {
+  color: #ecf0f1;
+}
+
+input[type=number]::placeholder {
+  color: #ecf0f1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #212121;
+  color: #ecf0f1;
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 .container {
   max-width: 800px;
-  text-align: center;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  text-align: center; /* Center all text content inside container */
 }
 
 h2 {
-  color: #4F8AFF;
+  color: #2568FB;
+}
+
+h3 {
+  color: #FECD45;
+}
+
+input[type=number],
+button {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #2568FB;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #044ce9;
 }/*# sourceMappingURL=main.css.map */
