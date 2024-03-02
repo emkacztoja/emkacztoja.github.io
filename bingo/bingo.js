@@ -3,7 +3,7 @@ const phrases = [
     "Kawusuia/ę", "Dzień dobry wieczór", "Łukasz", "Nie przeszkadzam?",
     "Ja mogę szybciej", "Jak wezmę kija", "Na oko to chłop w szpitalu umarł",
     "Skupcie się", "Za łeb ciągać", "Cichutko", "Pierwsza klasa", "Jeszcze chwila",
-    "Liczymy liczymy", "Szybciutko", "Nie przekrzyczę", "Loczki się rozprostują",
+    "Liczymy liczymy","Bieguśkiem","Smacznego tam", "Szybciutko", "Nie przekrzyczę", "Loczki się rozprostują",
     "Na podstawie...", "Można?", "Może trochę ciszej?", "Krótka piłka",
     "Mogę przeszkodzić?", "Buzie na tablicę", "*Pukanie w biurko*", "The winner is...", "Panie ładny", "Kochaniutki", "Proszę państwa", "Ludzie!", "Hej!", "Sklerotycy"
   ];
