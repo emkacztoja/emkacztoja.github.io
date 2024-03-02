@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: vh;
+    flex-direction: column;
+    padding: 5%; /* Adds some padding around the content */
+  }
+  
+  .bingo-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%; /* Gap based on viewport width */
+    max-width: 80vw; /* Maximum width of the bingo card */
+    margin-bottom: 2vh; /* Margin bottom based on viewport height */
+    width: 40%;
+  }
+  
+  .bingo-cell {
+    border: 1px solid #333;
+    padding: 5%; /* Padding based on viewport width */
+    text-align: center;
+    aspect-ratio: 1 / 1; /* Keeps cells square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw; /* Font size based on viewport width */
+  }
+  
+  button {
+    margin-top: 10%;
+    font-size: 1vw; /* Makes button text responsive */
+    padding: 1vh 1vw; /* Padding based on viewport size */
+    cursor: pointer;
+  }
+  
