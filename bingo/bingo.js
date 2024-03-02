@@ -5,8 +5,7 @@ const phrases = [
     "Skupcie się", "Za łeb ciągać", "Cichutko", "Pierwsza klasa", "Jeszcze chwila",
     "Liczymy liczymy", "Szybciutko", "Nie przekrzyczę", "Loczki się rozprostują",
     "Na podstawie...", "Można?", "Może trochę ciszej?", "Krótka piłka",
-    "Mogę przeszkodzić?", "Buzie na tablicę", "*Pukanie w biurko*", "The winner is...",
-    "Jak krew z nosa", "Panie ładny", "Kochaniutki", "Proszę państwa", "Ludzie!", "Hej!"
+    "Mogę przeszkodzić?", "Buzie na tablicę", "*Pukanie w biurko*", "The winner is...", "Panie ładny", "Kochaniutki", "Proszę państwa", "Ludzie!", "Hej!", "Sklerotycy"
   ];
   
   function generateBingoCard() {
