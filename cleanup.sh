@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script deletes trash files from common directories on Ubuntu
+# This script deletes trash files from common directories on Ubuntu and resets wallpaper to the default.
 
 echo "Starting cleanup..."
 
@@ -49,6 +49,17 @@ fi
 if [ -d "$HOME/.cache/google-chrome" ]; then
     echo "Clearing Chrome cache..."
     rm -rf "$HOME/.cache/google-chrome/*" 2>/dev/null
+fi
+
+# Set default wallpaper to Ubuntu's latest default (usually warty-final-ubuntu.png)
+echo "Setting wallpaper to default..."
+DEFAULT_WALLPAPER="/usr/share/backgrounds/warty-final-ubuntu.png"
+if [ -f "$DEFAULT_WALLPAPER" ]; then
+    gsettings set org.gnome.desktop.background picture-uri "file://$DEFAULT_WALLPAPER"
+    gsettings set org.gnome.desktop.background picture-options "zoom"
+    echo "Wallpaper set to default."
+else
+    echo "Default wallpaper file not found."
 fi
 
 echo "Cleanup complete!"
