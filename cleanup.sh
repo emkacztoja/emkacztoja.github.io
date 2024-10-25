@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# This script deletes trash files from common directories on Ubuntu and resets wallpaper to the default.
+# This script deletes everything from specified directories on Ubuntu and resets the wallpaper to the default.
 
-echo "Starting cleanup..."
+echo "Starting full cleanup..."
 
-# Define directories to clean
+# Define directories to fully clear
 TRASH_DIRS=(
     "$HOME/Desktop"             # Desktop
     "$HOME/Downloads"           # Downloads
@@ -13,18 +13,12 @@ TRASH_DIRS=(
     "/tmp"                      # Temporary files
 )
 
-# Remove specific unwanted file types from these directories
-FILE_TYPES=("*.tmp" "*.log" "*.bak" "*.old" "*.swp" "*.DS_Store" "*.crdownload")
-
-# Function to clean directories
-clean_directory() {
+# Function to fully clean directories
+clear_directory() {
     local dir=$1
     if [ -d "$dir" ]; then
-        echo "Cleaning $dir..."
-        # Loop through file types and delete matching files
-        for type in "${FILE_TYPES[@]}"; do
-            find "$dir" -type f -name "$type" -exec rm -f {} \;
-        done
+        echo "Clearing all contents in $dir..."
+        rm -rf "$dir"/* "$dir"/.[!.]* "$dir"/..?* 2>/dev/null
     else
         echo "$dir does not exist or is not a directory."
     fi
@@ -35,12 +29,12 @@ echo "Emptying trash..."
 rm -rf "$HOME/.local/share/Trash/files/*" 2>/dev/null
 rm -rf "$HOME/.local/share/Trash/info/*" 2>/dev/null
 
-# Clean each directory
+# Clear each directory
 for dir in "${TRASH_DIRS[@]}"; do
-    clean_directory "$dir"
+    clear_directory "$dir"
 done
 
-# Clean up browser caches if Firefox and Chrome are installed
+# Clear browser caches if Firefox and Chrome are installed
 if [ -d "$HOME/.mozilla/firefox" ]; then
     echo "Clearing Firefox cache..."
     rm -rf "$HOME/.mozilla/firefox/*/cache2/*" 2>/dev/null
@@ -62,4 +56,4 @@ else
     echo "Default wallpaper file not found."
 fi
 
-echo "Cleanup complete!"
+echo "Full cleanup complete!"
