@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualization with Sound</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sorting Visualization with Sound</h1>
+    <div id="array-container"></div>
+    <div>
+        <label for="delay">Set Delay (ms):</label>
+        <input type="number" id="delay" value="300" min="50" max="2000">
+    </div>
+    <div>
+        <label for="length">Set Array Length:</label>
+        <input type="number" id="length" value="20" min="5" max="100">
+    </div>
+    <button onclick="generateArray()">Generate New Array</button>
+    <button onclick="bubbleSort()">Bubble Sort</button>
+    <button onclick="bogoSort()">Bogo Sort</button>
+    <button onclick="insertionSort()">Insertion Sort</button>
+    <button onclick="mergeSort()">Merge Sort</button>
+    <button onclick="quickSort()">Quick Sort</button>
+    <button onclick="selectionSort()">Selection Sort</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
