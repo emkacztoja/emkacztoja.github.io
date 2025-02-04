@@ -1,0 +1,37 @@
+{
+    "name": "mObywatel",
+    "short_name": "mObywatel",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Aplikacja demonstracyjna dla gitów",
+    "icons": [{
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "../dowod_files/ikonka.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }
+  
