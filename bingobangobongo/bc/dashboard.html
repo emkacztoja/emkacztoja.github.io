@@ -1,0 +1,216 @@
+
+<html webcrx=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-merge-styles="true"></style>
+    <style data-merge-styles="true"></style><style data-merge-styles="true"></style><script src="./dashboard_files/sw.js.download"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    
+    <meta name="viewport" content="width=device-width">
+    <title>demoObywatel</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#fff">
+    <meta name="next-head-count" content="5">
+    <link rel="preload" href="./dashboard_files/main.css" as="style">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="./dashboard_files/main.css" data-n-g="">
+    <link rel="manifest" href="./manifest.json">
+
+    <noscript data-n-css=""></noscript>
+    <style>
+        body {
+            overscroll-behavior: contain;
+        }
+
+        .navbar {
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        @supports (-webkit-touch-callout: none) {
+            .dzit {
+                margin-bottom: 1.0rem;
+            }
+        }
+
+        .photo {
+            position: relative;
+            filter: grayscale(100%);
+            z-index: 1;
+            display: block;
+        }
+
+        #gradient {
+            position: relative;
+            bottom: 10px;
+            background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+            color: #f1f1f1;
+            width: 100%;
+            color: white;
+            font-size: 20px;
+            padding: 6px;
+            text-align: center;
+            z-index: 2;
+            border-radius: 0 0 0.5rem 0.5rem;
+            margin: 0;
+        }
+
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style><link rel="stylesheet" href="./dashboard_files/dashboard.css">
+<script src="./dashboard_files/scale.js.download"></script>
+<!-- <script src="blob:https://powderblue-cat-511351.hostingersite.com/ea527665-8e35-4ef2-ba2e-d39f2aa23c72"></script> -->
+</head>
+
+<body>
+    <header>
+        <div id="inicjaly">
+                        <p id="inicjaly-p">BC</p>
+        </div>
+        <div id="dzwonek">
+            <img src="./dashboard_files/dzwonek_dot.svg" alt="kropka" id="kropka">
+            <img src="./dashboard_files/dzwonek.svg" alt="dzwoneczek" id="dzwoneczek">
+            <img src="./dashboard_files/dzwonek_bottom.svg" alt="dzwonek_bottom" id="dzwonek_bottom">
+        </div>
+    </header>
+    <section id="dokumenty">
+        <p id="tekst-dok">Dokumenty</p>
+        <section id="buttons">
+            <button id="dodaj">Dodaj</button>
+            <button id="wszystkie">Wszystkie</button>
+        </section>
+    </section>
+    <section id="wybor-p">
+        <a class="id-card" href="dowodnowy.html">
+            <img src="./dashboard_files/personicon.svg" alt="icon" class="id-card-icon">
+            <img class="id-card-top" src="./dashboard_files/cardbg1.svg">
+            <div class="id-card-bottom">
+                <p>mDowód</p>
+                <img src="./dashboard_files/arrow.svg" alt="arrow">
+            </div>
+    </a>
+        <a class="id-card" href="/dashboard.html">
+            <img src="./dashboard_files/steering_wheel-icon.svg" alt="icon" class="id-card-icon">
+            <img class="id-card-top" src="./dashboard_files/cardbg2.svg">
+            <div class="id-card-bottom">
+                <p>Prawo jazdy</p>
+                <img src="./dashboard_files/arrow.svg" alt="arrow">
+            </div>
+        </a>
+    </section>
+    <section id="dokumenty">
+        <p id="tekst-dok">Usługi</p>
+        <section id="buttons">
+            <button id="wszystkie">Wszystkie</button>
+        </section>
+    </section>
+    <main>
+        <div class="usluga">
+            <button class="przycisk">
+                <div id="cap">
+                    <img src="./dashboard_files/cap3.svg" alt="cap" id="cap1">
+                    <img src="./dashboard_files/cap2.svg" alt="cap" id="cap2">
+                    <img src="./dashboard_files/cap5.svg" alt="cap" id="cap3">
+                    <img src="./dashboard_files/cap4.svg" alt="cap" id="cap4">
+                    <img src="./dashboard_files/cap1.svg" alt="cap" id="cap5">
+                </div>
+            </button>
+            <p class="usluga-tekst">Punkty karne</p>
+        </div>
+        <div class="usluga">
+            <button class="przycisk">
+                <div id="srod">
+                    <img src="./dashboard_files/srod1.svg" alt="srodowiskoikona1" id="srod1">
+                    <img src="./dashboard_files/srod2.svg" alt="srodowiskoikona1" id="srod2">
+                </div>
+            </button>
+            <p class="usluga-tekst">Naruszenie środowiskowe</p>
+        </div>
+        <div class="usluga">
+            <button class="przycisk" id="bus">
+                <img src="./dashboard_files/buslogo.svg" alt="buslogo">
+            </button>
+            <p class="usluga-tekst">Bezpieczny autobus</p>
+        </div>
+    </main>
+    <main>
+        <div class="usluga">
+            <button class="przycisk center">
+                <img src="./dashboard_files/samolotlogo.svg" alt="samolotlogo">
+            </button>
+            <p class="usluga-tekst">Polak<br>za granicą</p>
+        </div>
+        <div class="usluga">
+            <button class="przycisk center">
+                <img src="./dashboard_files/bilkomlogo.svg" alt="bilkomlogo">
+            </button>
+            <p class="usluga-tekst">Bilkom</p>
+        </div>
+        <div class="usluga">
+            <button class="przycisk center">
+                <img src="./dashboard_files/pesellogo.svg" alt="pesellogo">
+            </button>
+            <p class="usluga-tekst">Zastrzeż PESEL</p>
+        </div>
+    </main>
+    <footer>
+        <section class="witam">
+            <button class="wyborobecny">
+                <img src="./dashboard_files/house.svg" alt="house" class="house">
+            </button>
+            <p>Start</p>
+        </section>
+        <section class="witam">
+            <button class="wybor">
+                <div id="dok">
+                    <img src="./dashboard_files/dok1.svg" alt="dok1" id="dok1">
+                    <img src="./dashboard_files/dok2.svg" alt="dok2" id="dok2">
+                    <img src="./dashboard_files/dok3.svg" alt="dok3" id="dok3">
+                </div>
+            </button>
+            <p>Dokumenty</p>
+        </section>
+        <section class="witam">
+            <button class="wybor">
+                <img src="./dashboard_files/folder.svg" alt="folder" class="folder">
+            </button>
+            <p>Usługi</p>
+        </section>
+        <section class="witam">
+            <button class="wybor">
+                <div id="kod">
+                    <img src="./dashboard_files/kod1.svg" alt="kod1" id="kod1">
+                    <img src="./dashboard_files/kod2.svg" alt="kod2" id="kod2">
+                    <img src="./dashboard_files/kod3.svg" alt="kod3" id="kod3">
+                    <img src="./dashboard_files/kod4.svg" alt="kod4" id="kod4">
+                    <img src="./dashboard_files/kod5.svg" alt="kod5" id="kod5">
+                    <img src="./dashboard_files/kod6.svg" alt="kod6" id="kod6">
+                    <img src="./dashboard_files/kod5.svg" alt="kod7" id="kod7">
+                </div>
+            </button>
+            <p>Kod QR</p>
+        </section>
+        <section class="witam">
+            <button class="wybor">
+                <div id="more">
+                    <img src="./dashboard_files/more1.svg" alt="chuj1" id="more1">
+                    <img src="./dashboard_files/more2.svg" alt="chuj2" id="more2">
+                    <img src="./dashboard_files/more2.svg" alt="chuj2" id="more3">
+                    <img src="./dashboard_files/more2.svg" alt="chuj2" id="more4">
+                </div>
+            </button>
+            <p>Więcej</p>
+        </section>
+    </footer>
+
+
+</body><editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important"><div dir="ltr" style="all: initial;"><div style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: absolute; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interpolate-size: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><link rel="stylesheet" href="chrome-extension://hokifickgkhplphjiodbggjmoafhignh/fonts/fabric-icons.css"><div style="all: initial;"><template shadowrootmode="open"></template></div></div><div style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: absolute; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interpolate-size: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><link rel="stylesheet" href="chrome-extension://hokifickgkhplphjiodbggjmoafhignh/fonts/fabric-icons.css"></div></div></editor-card></html>
