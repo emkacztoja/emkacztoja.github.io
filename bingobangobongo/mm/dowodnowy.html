@@ -85,7 +85,7 @@
         <p>mDowód</p>
         <div></div>
     </header>
-    <p class="czas">Czas: 20:34:15 4.02.2025</p>
+    <p class="czas"> <span>&#8203;</span> </p>
     <script src="./dowodnowy_files/timenew.js.download"></script>
     <main>
         <section id="lew">
@@ -132,16 +132,30 @@
     <div id="rogo"></div>
     <a class="buto">
         <div>
-            <p class="info">Ostatnia aktualizacjа</p>
-            <p class="main">2025-02-04</p>
-        </div>
+            <p class="info">Ostatnia aktualizacja</p>
+            <p class="main" id="dataskibidi"></p>
+          </div>
+          
+          <script>
+            // Get the last modified date of the current document
+            const lastModified = new Date(document.lastModified);
+            
+            // Format the date as YYYY-MM-DD
+            const year = lastModified.getFullYear();
+            const month = String(lastModified.getMonth() + 1).padStart(2, '0');
+            const day = String(lastModified.getDate()).padStart(2, '0');
+            
+            // Inject the formatted date into the element with id="currentDate"
+            document.getElementById('dataskibidi').textContent = `${year}-${month}-${day}`;
+          </script>
+          
         <button id="aktualizuj">Aktualizuj</button>
     </a>
-    <p class="disclaimer" style="margin-top: 16px;">
+    <!-- <p class="disclaimer" style="margin-top: 16px;">
        INSTAGRAM:fobywatel.2.0 Aplikacja ma na celu tylko demonstrację wyglądu aplikacji
         rządowej mObywatel i została stworzona w celach
         edukacyjnych.
-    </p>
+    </p> -->
     <script src="./dowodnowy_files/rozwijka.js.download"></script>
     <section id="menu" style="display: none;">
         <section id="wybordokumentu" style="display: none;">
