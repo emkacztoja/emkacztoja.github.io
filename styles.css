@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    -webkit-text-size-adjust: 100%; /* Prevents automatic font scaling */
+    text-size-adjust: 100%; /* Standard property */
+    font-size: 16px; /* Base font size */
+}
+
+.leaflet {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #eaeaea;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Invitation Section */
+.invitation {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fefefe;
+    animation: slideUp 1s ease-in-out;
+}
+
+.heading {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.details {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.date-time {
+    font-size: 1.6rem;
+    color: #333;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.contact {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.link {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.link:hover {
+    color: #0056b3;
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.seal {
+    margin-top: 20px;
+    text-align: center;
+    animation: rotateIn 1.5s ease-in-out;
+}
+
+.seal-image {
+    width: 120px;
+    height: auto;
+    filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.1));
+}
+
+/* Decorative Lines */
+.invitation::before,
+.invitation::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px auto;
+}
+
+/* Table of Classes Section */
+.classes {
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.class-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.class-item {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.class-item h3 {
+    font-size: 1.4rem;
+    margin: 0 0 10px 0;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.class-item p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate(-10deg) scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* * {
+    border: 1px solid red !important;
+} */
