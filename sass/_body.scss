@@ -1,0 +1,41 @@
+@import 'abstract';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    text-align: center; /* Center all text content inside container */
+}
+
+h2 {
+    color: $primary-color;
+}
+
+h3 {
+    color: $secondary-color;
+}
+
+input[type="number"],
+button {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: $primary-color;
+    color: $text-color;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darken($primary-color, 10%);
+}

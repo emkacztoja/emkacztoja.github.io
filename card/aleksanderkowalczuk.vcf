@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kowalczuk;Aleksander;;;
+FN:Aleksander Kowalczuk
+ORG:emkacz.pl
+ADR;TYPE=WORK:
+TITLE:photographer
+TEL;TYPE=CELL:+48514330520
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:akowalczuk@emkacz.pl
+URL;TYPE=Digital Business Card:https://resources.emkacz.pl/card
+URL:https://emkacz.pl
+URL;TYPE=Website:https://emkacz.pl
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:
+UID:EnBizCard-100216292
+END:VCARD
